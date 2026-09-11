@@ -46,6 +46,12 @@ Azure/
 
 Jede Automatisierung erhält einen eigenen Unterordner mit PowerShell-Skript und README.
 
+## Verfügbare Automatisierungen
+
+### Entra ID
+
+- [Stale Guest Account Audit](Entra-ID/Stale-Guest-Account-Audit/) — Findet inaktive Gastkonten anhand von `lastSuccessfulSignInDateTime` und erzeugt einen prüfbaren CSV-Report ohne Konten zu verändern.
+
 ## Sicherheit
 
 Alle Skripte sollten vor dem produktiven Einsatz in einer Testumgebung geprüft werden. Destruktive Aktionen werden vermieden oder müssen explizit aktiviert werden.
