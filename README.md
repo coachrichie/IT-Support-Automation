@@ -52,6 +52,10 @@ Jede Automatisierung erhält einen eigenen Unterordner mit PowerShell-Skript und
 
 - [Stale Guest Account Audit](Entra-ID/Stale-Guest-Account-Audit/) — Findet inaktive Gastkonten anhand von `lastSuccessfulSignInDateTime` und erzeugt einen prüfbaren CSV-Report ohne Konten zu verändern.
 
+### Exchange Online
+
+- [External Forwarding Audit](Exchange/External-Forwarding-Audit/) — Prüft mailbox-level Forwarding sowie sichtbare und verborgene Inbox Rules auf externe automatische Weiterleitungen und erzeugt einen read-only CSV-Auditreport.
+
 ## Sicherheit
 
 Alle Skripte sollten vor dem produktiven Einsatz in einer Testumgebung geprüft werden. Destruktive Aktionen werden vermieden oder müssen explizit aktiviert werden.
