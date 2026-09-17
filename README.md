@@ -56,6 +56,14 @@ Jede Automatisierung erhält einen eigenen Unterordner mit PowerShell-Skript und
 
 - [External Forwarding Audit](Exchange/External-Forwarding-Audit/) — Prüft mailbox-level Forwarding sowie sichtbare und verborgene Inbox Rules auf externe automatische Weiterleitungen und erzeugt einen read-only CSV-Auditreport.
 
+### Microsoft Intune
+
+- [Stale Device Audit](Intune/Stale-Device-Audit/) — Findet verwaltete Geräte mit veraltetem `lastSyncDateTime` als read-only Pre-Cleanup-Report.
+
+### Microsoft Defender
+
+- [Device Health & Risk Audit](Defender/Device-Health-Risk-Audit/) — Priorisiert inaktive Geräte, Sensor-Kommunikationsprobleme sowie erhöhte Risk- und Exposure-Werte aus der Defender-for-Endpoint-Machine-API, ohne Remediation auszulösen.
+
 ## Sicherheit
 
 Alle Skripte sollten vor dem produktiven Einsatz in einer Testumgebung geprüft werden. Destruktive Aktionen werden vermieden oder müssen explizit aktiviert werden.
