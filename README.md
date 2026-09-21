@@ -64,6 +64,10 @@ Jede Automatisierung erhält einen eigenen Unterordner mit PowerShell-Skript und
 
 - [Stale Device Audit](Intune/Stale-Device-Audit/) — Findet verwaltete Geräte mit veraltetem `lastSyncDateTime` als read-only Pre-Cleanup-Report.
 
+### Microsoft Purview
+
+- [Retention Policy Distribution Audit](Purview/Retention-Policy-Distribution-Audit/) — Prüft den DistributionStatus und die DistributionResults von Retention Policies und priorisiert Fehler, Pending-Zustände und Warnungen ohne automatische Remediation.
+
 ### Microsoft Defender
 
 - [Device Health & Risk Audit](Defender/Device-Health-Risk-Audit/) — Priorisiert inaktive Geräte, Sensor-Kommunikationsprobleme sowie erhöhte Risk- und Exposure-Werte aus der Defender-for-Endpoint-Machine-API, ohne Remediation auszulösen.
