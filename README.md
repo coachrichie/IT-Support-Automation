@@ -72,6 +72,10 @@ Jede Automatisierung erhält einen eigenen Unterordner mit PowerShell-Skript und
 
 - [Device Health & Risk Audit](Defender/Device-Health-Risk-Audit/) — Priorisiert inaktive Geräte, Sensor-Kommunikationsprobleme sowie erhöhte Risk- und Exposure-Werte aus der Defender-for-Endpoint-Machine-API, ohne Remediation auszulösen.
 
+### Microsoft Azure
+
+- [Unattached Managed Disk Audit](Azure/Unattached-Managed-Disk-Audit/) — Findet seit einem konfigurierbaren Zeitraum nicht angehängte Managed Disks als read-only FinOps-/Cleanup-Kandidaten und berücksichtigt Schutz-Tags sowie unbekanntes Ownership-Alter.
+
 ## Sicherheit
 
 Alle Skripte sollten vor dem produktiven Einsatz in einer Testumgebung geprüft werden. Destruktive Aktionen werden vermieden oder müssen explizit aktiviert werden.
