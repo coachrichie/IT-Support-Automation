@@ -52,6 +52,10 @@ Jede Automatisierung erhält einen eigenen Unterordner mit PowerShell-Skript und
 
 - [Certificate Expiry Audit](Windows-Server/Certificate-Expiry-Audit/) — Findet lokal installierte Server-/Dienstzertifikate, die innerhalb eines konfigurierbaren Zeitfensters ablaufen, und erzeugt einen read-only CSV-Report für proaktive Erneuerung und Change Control.
 
+### Microsoft 365
+
+- [License Assignment Error Audit](M365/License-Assignment-Error-Audit/) — Findet tenantweit fehlerhafte direkte und gruppenbasierte Lizenzzuweisungen, löst SKU- und Gruppeninformationen auf und kennzeichnet u. a. fehlende Usage Locations, ohne Lizenzänderungen auszuführen.
+
 ### Entra ID
 
 - [Stale Guest Account Audit](Entra-ID/Stale-Guest-Account-Audit/) — Findet inaktive Gastkonten anhand von `lastSuccessfulSignInDateTime` und erzeugt einen prüfbaren CSV-Report ohne Konten zu verändern.
