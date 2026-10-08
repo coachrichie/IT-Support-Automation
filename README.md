@@ -33,7 +33,7 @@ Jede Lösung soll nach Möglichkeit enthalten:
 
 ## Struktur
 
-\`\`\`text
+```text
 Windows-Server/
 M365/
 Entra-ID/
@@ -42,7 +42,7 @@ Exchange/
 Purview/
 Defender/
 Azure/
-\`\`\`
+```
 
 Jede Automatisierung erhält einen eigenen Unterordner mit PowerShell-Skript und README.
 
@@ -59,7 +59,7 @@ Jede Automatisierung erhält einen eigenen Unterordner mit PowerShell-Skript und
 ### Entra ID
 
 - [Credential Expiry Audit](Entra-ID/Credential-Expiry-Audit/) — Findet abgelaufene und bald ablaufende Client Secrets sowie Zertifikate von App-Registrierungen und optional Service Principals als read-only CSV-Audit.
-- [Stale Guest Account Audit](Entra-ID/Stale-Guest-Account-Audit/) — Findet inaktive Gastkonten anhand von \`lastSuccessfulSignInDateTime\` und erzeugt einen prüfbaren CSV-Report ohne Konten zu verändern.
+- [Stale Guest Account Audit](Entra-ID/Stale-Guest-Account-Audit/) — Findet inaktive Gastkonten anhand von `lastSuccessfulSignInDateTime` und erzeugt einen prüfbaren CSV-Report ohne Konten zu verändern.
 
 ### Exchange Online
 
@@ -67,7 +67,7 @@ Jede Automatisierung erhält einen eigenen Unterordner mit PowerShell-Skript und
 
 ### Microsoft Intune
 
-- [Stale Device Audit](Intune/Stale-Device-Audit/) — Findet verwaltete Geräte mit veraltetem \`lastSyncDateTime\` als read-only Pre-Cleanup-Report.
+- [Stale Device Audit](Intune/Stale-Device-Audit/) — Findet verwaltete Geräte mit veraltetem `lastSyncDateTime` als read-only Pre-Cleanup-Report.
 
 ### Microsoft Purview
 
