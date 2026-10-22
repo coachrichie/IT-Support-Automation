@@ -1,4 +1,4 @@
-#requires -Version 7.2
+#requires -Version 5.1
 <#
 .SYNOPSIS
     Audits delegated permissions on Exchange Online shared mailboxes.

@@ -10,7 +10,7 @@ Microsoft unterscheidet diese Rechte bewusst: Full Access erlaubt den Zugriff au
 
 ## Voraussetzungen
 
-- PowerShell 7.2 oder neuer
+- Windows PowerShell 5.1 oder eine zur installierten Modulversion kompatible PowerShell-7-Version. Für ExchangeOnlineManagement 3.10.x ist unter PowerShell 7 mindestens Version 7.6 erforderlich.
 - Modul `ExchangeOnlineManagement`
 - Netzwerkzugriff auf Exchange Online
 - Ein Konto mit Exchange-Online-RBAC-Zugriff auf die verwendeten Get-Cmdlets
