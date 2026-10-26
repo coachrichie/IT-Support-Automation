@@ -51,6 +51,7 @@ Jede Automatisierung erhält einen eigenen Unterordner mit PowerShell-Skript und
 ### Windows Server
 
 - [Certificate Expiry Audit](Windows-Server/Certificate-Expiry-Audit/) — Findet lokal installierte Server-/Dienstzertifikate, die innerhalb eines konfigurierbaren Zeitfensters ablaufen, und erzeugt einen read-only CSV-Report für proaktive Erneuerung und Change Control.
+- [Scheduled Task Health Audit](Windows-Server/Scheduled-Task-Health-Audit/) — Prüft lokale oder entfernte geplante Aufgaben read-only auf fehlgeschlagene, nie erfolgte oder veraltete Läufe sowie Scheduler-Zustände und erzeugt CSV plus Logdatei.
 
 ### Microsoft 365
 
