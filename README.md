@@ -60,6 +60,7 @@ Jede Automatisierung erhält einen eigenen Unterordner mit PowerShell-Skript und
 ### Entra ID
 
 - [Credential Expiry Audit](Entra-ID/Credential-Expiry-Audit/) — Findet abgelaufene und bald ablaufende Client Secrets sowie Zertifikate von App-Registrierungen und optional Service Principals als read-only CSV-Audit.
+- [MFA Readiness Audit](Entra-ID/MFA-Readiness-Audit/) — Priorisiert Mitglieder und Administratorkonten ohne wirksame MFA-Faehigkeit, erkennt Richtlinienluecken zwischen registrierter und nutzbarer Methode und erzeugt CSV-, JSON- und Log-Ausgaben ohne Remediation.
 - [Stale Guest Account Audit](Entra-ID/Stale-Guest-Account-Audit/) — Findet inaktive Gastkonten anhand von `lastSuccessfulSignInDateTime` und erzeugt einen prüfbaren CSV-Report ohne Konten zu verändern.
 
 ### Exchange Online
