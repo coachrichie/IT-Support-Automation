@@ -260,4 +260,3 @@ finally {
         Disconnect-MgGraph -ErrorAction SilentlyContinue | Out-Null
     }
 }
-

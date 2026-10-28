@@ -146,4 +146,3 @@ Das Skript ist read-only; ein technischer Rollback von Tenant-Aenderungen ist ni
 - Microsoft Graph: List userRegistrationDetails — https://learn.microsoft.com/graph/api/authenticationmethodsroot-list-userregistrationdetails
 - Microsoft Graph: userRegistrationDetails resource — https://learn.microsoft.com/graph/api/resources/userregistrationdetails?view=graph-rest-1.0
 - Microsoft Graph PowerShell: Get-MgReportAuthenticationMethodUserRegistrationDetail — https://learn.microsoft.com/powershell/module/microsoft.graph.reports/get-mgreportauthenticationmethoduserregistrationdetail
-
