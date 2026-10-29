@@ -66,6 +66,7 @@ Jede Automatisierung erhält einen eigenen Unterordner mit PowerShell-Skript und
 ### Exchange Online
 
 - [External Forwarding Audit](Exchange/External-Forwarding-Audit/) — Prüft mailbox-level Forwarding sowie sichtbare und verborgene Inbox Rules auf externe automatische Weiterleitungen und erzeugt einen read-only CSV-Auditreport.
+- [Mailbox Quota Health Audit](Exchange/Mailbox-Quota-Health-Audit/) — Priorisiert Benutzer- und Shared-Mailboxen an Warn-, Sende- oder Sende-/Empfangsgrenzen anhand ihrer tatsaechlichen Exchange-Online-Quotas und erzeugt CSV-, JSON- und Log-Ausgaben ohne Aenderungen.
 - [Shared Mailbox Permission Audit](Exchange/Shared-Mailbox-Permission-Audit/) — Konsolidiert FullAccess, SendAs und SendOnBehalf für freigegebene Postfächer und markiert unvollständige oder widersprüchliche Delegierungen als read-only Review-Kandidaten.
 
 ### Microsoft Intune
