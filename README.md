@@ -74,6 +74,7 @@ Jede Automatisierung erhält einen eigenen Unterordner mit PowerShell-Skript und
 
 ### Microsoft Intune
 
+- [Device Compliance State Audit](Intune/Device-Compliance-State-Audit/) — Priorisiert nicht konforme Geräte, Grace-Period-, Konflikt- und Fehlerzustände read-only über Microsoft Graph und exportiert CSV, JSON und Log.
 - [Stale Device Audit](Intune/Stale-Device-Audit/) — Findet verwaltete Geräte mit veraltetem `lastSyncDateTime` als read-only Pre-Cleanup-Report.
 
 ### Microsoft Purview
