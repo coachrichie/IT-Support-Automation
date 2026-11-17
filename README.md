@@ -50,6 +50,7 @@ Jede Automatisierung erhält einen eigenen Unterordner mit PowerShell-Skript und
 
 ### Windows Server
 
+- [Pending Reboot Signal Audit](Windows-Server/Pending-Reboot-Signal-Audit/) — Liest lokale Neustartsignale aus Servicing, Windows Update, Computername und geplanten Dateioperationen; trennt Pending, Review, Unknown und Clear ohne Neustart.
 - [Disk Free Space Audit](Windows-Server/Disk-Free-Space-Audit/) — Misst lokalen freien Speicherplatz pro Windows-Server-Laufwerk lesend per CIM und priorisiert Warn- und Kritisch-Schwellen in CSV, JSON und Log.
 - [Service Health Audit](Windows-Server/Service-Health-Audit/) — Prüft Windows-Dienste lokal oder per CIM auf gestoppte automatische, deaktivierte und fehlende Dienste; erzeugt lesend CSV, JSON und Log.
 - [Certificate Expiry Audit](Windows-Server/Certificate-Expiry-Audit/) — Findet lokal installierte Server-/Dienstzertifikate, die innerhalb eines konfigurierbaren Zeitfensters ablaufen, und erzeugt einen read-only CSV-Report für proaktive Erneuerung und Change Control.
