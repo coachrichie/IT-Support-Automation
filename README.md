@@ -88,6 +88,7 @@ Jede Automatisierung erhält einen eigenen Unterordner mit PowerShell-Skript und
 
 ### Microsoft Azure
 
+- [Storage Network Exposure Audit](Azure/Storage-Network-Exposure-Audit/) — Inventarisiert die öffentliche Netzwerkfreigabe von Storage Accounts im gewählten Abonnement read-only und priorisiert Konfigurationen mit offenem Standardzugang für eine manuelle Prüfung.
 - [Public IP Inventory Audit](Azure/Public-IP-Inventory-Audit/) — Erfasst Public-IP-Konfiguration und Zuordnungshinweise read-only im aktuellen Azure-Abonnement und erzeugt Review-Kandidaten ohne Nutzungs- oder Kostenbehauptung.
 - [Unattached Managed Disk Audit](Azure/Unattached-Managed-Disk-Audit/) — Findet seit einem konfigurierbaren Zeitraum nicht angehängte Managed Disks als read-only FinOps-/Cleanup-Kandidaten und berücksichtigt Schutz-Tags sowie unbekanntes Ownership-Alter.
 
