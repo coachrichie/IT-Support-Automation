@@ -50,6 +50,7 @@ Jede Automatisierung erhält einen eigenen Unterordner mit PowerShell-Skript und
 
 ### Windows Server
 
+- [Firewall Profile Health Audit](Windows-Server/Firewall-Profile-Health-Audit/) — Prüft die wirksamen Domain-, Private- und Public-Firewall-Profile lokal read-only auf Deaktivierung, offene Standard-Inbound-Aktion und Logging blockierter Pakete.
 - [Pending Reboot Signal Audit](Windows-Server/Pending-Reboot-Signal-Audit/) — Liest lokale Neustartsignale aus Servicing, Windows Update, Computername und geplanten Dateioperationen; trennt Pending, Review, Unknown und Clear ohne Neustart.
 - [Disk Free Space Audit](Windows-Server/Disk-Free-Space-Audit/) — Misst lokalen freien Speicherplatz pro Windows-Server-Laufwerk lesend per CIM und priorisiert Warn- und Kritisch-Schwellen in CSV, JSON und Log.
 - [Service Health Audit](Windows-Server/Service-Health-Audit/) — Prüft Windows-Dienste lokal oder per CIM auf gestoppte automatische, deaktivierte und fehlende Dienste; erzeugt lesend CSV, JSON und Log.
